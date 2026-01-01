@@ -1,0 +1,21 @@
+[0.354s] Invoking command in '/home/developer/deepviewaggregation': PYTHONPATH=/home/developer/deepviewaggregation/build/torch_points3d/prefix_override:/home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/torch_points3d build --build-base /home/developer/deepviewaggregation/build/torch_points3d/build install --record /home/developer/deepviewaggregation/build/torch_points3d/install.log --single-version-externally-managed
+[0.487s] /usr/local/lib/python3.10/dist-packages/setuptools/dist.py:501: UserWarning: The version specified ('*') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+[0.487s]   warnings.warn(
+[0.490s] running egg_info
+[0.490s] writing build/torch_points3d/torch_points3d.egg-info/PKG-INFO
+[0.490s] writing dependency_links to build/torch_points3d/torch_points3d.egg-info/dependency_links.txt
+[0.490s] writing requirements to build/torch_points3d/torch_points3d.egg-info/requires.txt
+[0.490s] writing top-level names to build/torch_points3d/torch_points3d.egg-info/top_level.txt
+[0.491s] reading manifest file 'build/torch_points3d/torch_points3d.egg-info/SOURCES.txt'
+[0.491s] adding license file 'LICENSE.md'
+[0.492s] writing manifest file 'build/torch_points3d/torch_points3d.egg-info/SOURCES.txt'
+[0.492s] running build
+[0.492s] running build_py
+[0.492s] running install
+[0.492s] running install_lib
+[0.492s] running install_egg_info
+[0.493s] removing '/home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages/torch_points3d-_-py3.10.egg-info' (and everything under it)
+[0.493s] Copying build/torch_points3d/torch_points3d.egg-info to /home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages/torch_points3d-_-py3.10.egg-info
+[0.494s] running install_scripts
+[0.505s] writing list of installed files to '/home/developer/deepviewaggregation/build/torch_points3d/install.log'
+[0.518s] Invoked command in '/home/developer/deepviewaggregation' returned '0': PYTHONPATH=/home/developer/deepviewaggregation/build/torch_points3d/prefix_override:/home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/torch_points3d build --build-base /home/developer/deepviewaggregation/build/torch_points3d/build install --record /home/developer/deepviewaggregation/build/torch_points3d/install.log --single-version-externally-managed

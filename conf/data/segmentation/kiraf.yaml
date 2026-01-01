@@ -1,0 +1,51 @@
+# @package data
+defaults:
+  - segmentation/default
+
+define: &used_camera 'zivid'
+
+class: bhatkale45.bhatkale45Dataset
+dataroot: /home/developer/deepviewaggregation/torch_points3d/datasets/segmentation/utils/data/
+grid_size: 0.03
+normal: False # Use normal vectors as features
+first_subsampling: 0.02 # Grid size of the input data
+use_category: False # Use object category information
+content:
+  rgb: True
+  intensity: False
+  normalized_color: True
+  normalized_spatial: True
+
+multiple_files: True
+number_points: 8192
+sampling_strategy: random
+n: 3
+n_pcls: 2
+
+
+# zivid stuff
+filepath: /home/developer/deepviewaggregation/torch_points3d/datasets/segmentation/utils/data/
+camera: ""
+
+# for testing with other cameras
+#filepath: /home/andi/DeepViewAgg/real_pcls/np/
+
+filepath_torch: /home/developer/deepviewaggregation/torch_points3d/datasets/segmentation/utils/data/bhatkale45/
+filepath_sampled_pcl: /home/developer/deepviewaggregation/torch_points3d/datasets/segmentation/utils/data/sampled
+
+include_real_data_to_training: True
+model: kpconv 
+
+# pre_transforms: # Offline transforms, done only once
+#   - transform: NormalizeScale
+#   - transform: GridSampling3D
+#     params:
+#       size: ${data.first_subsampling}
+# train_transforms: # Data augmentation pipeline
+#   - transform: RandomNoise
+#     params:
+#       sigma: 0.01
+#       clip: 0.05
+#   - transform: RandomScaleAnisotropic
+#     params:
+#       scales: [0.9, 1.1]

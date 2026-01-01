@@ -1,0 +1,94 @@
+[0.063s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.063s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d181048dae0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7d181048d5a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7d181048d5a0>>, mixin_verb=('build',))[0m
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.158s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/developer/deepviewaggregation'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.158s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.169s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.169s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.169s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.169s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.169s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.312s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage '.' with type 'python' and name 'torch_points3d'[0m
+[0.312s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.313s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.321s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.321s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.323s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 1 installed packages in /home/developer/deepviewaggregation/install[0m
+[0.324s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 25 installed packages in /home/developer/bhatkale45/install[0m
+[0.324s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 8 installed packages in /home/developer/universal_robots_ws/install[0m
+[0.325s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 38 installed packages in /home/developer/moveit2/install[0m
+[0.325s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 0 installed packages in /home/developer/ros2_control/install[0m
+[0.326s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 287 installed packages in /opt/ros/humble[0m
+[0.327s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.346s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'cmake_args' from command line to 'None'
+[0.346s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'cmake_target' from command line to 'None'
+[0.346s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'cmake_clean_cache' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'cmake_clean_first' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'cmake_force_configure' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'ament_cmake_args' from command line to 'None'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'catkin_cmake_args' from command line to 'None'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'torch_points3d' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.347s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'torch_points3d' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/developer/deepviewaggregation/build/torch_points3d', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/developer/deepviewaggregation/install/torch_points3d', 'merge_install': False, 'path': '/home/developer/deepviewaggregation', 'symlink_install': False, 'test_result_base': None}[0m
+[0.347s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.347s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.347s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/developer/deepviewaggregation'
+[0.349s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.349s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.702s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/developer/deepviewaggregation': PYTHONPATH=/home/developer/deepviewaggregation/build/torch_points3d/prefix_override:/home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/torch_points3d build --build-base /home/developer/deepviewaggregation/build/torch_points3d/build install --record /home/developer/deepviewaggregation/build/torch_points3d/install.log --single-version-externally-managed[0m
+[0.866s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/developer/deepviewaggregation' returned '0': PYTHONPATH=/home/developer/deepviewaggregation/build/torch_points3d/prefix_override:/home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base build/torch_points3d build --build-base /home/developer/deepviewaggregation/build/torch_points3d/build install --record /home/developer/deepviewaggregation/build/torch_points3d/install.log --single-version-externally-managed[0m
+[0.867s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d' for CMake module files
+[0.867s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d' for CMake config files
+[0.868s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d/lib'
+[0.868s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d/bin'
+[0.868s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d/lib/pkgconfig/torch_points3d.pc'
+[0.868s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d/lib/python3.10/site-packages'
+[0.868s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('torch_points3d', 'pythonpath')
+[0.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/hook/pythonpath.ps1'
+[0.868s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/hook/pythonpath.dsv'
+[0.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/hook/pythonpath.sh'
+[0.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/developer/deepviewaggregation/install/torch_points3d/bin'
+[0.869s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(torch_points3d)
+[0.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/package.ps1'
+[0.869s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/package.dsv'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/package.sh'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/package.bash'
+[0.870s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/developer/deepviewaggregation/install/torch_points3d/share/torch_points3d/package.zsh'
+[0.871s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/developer/deepviewaggregation/install/torch_points3d/share/colcon-core/packages/torch_points3d)
+[0.871s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[0.871s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[0.871s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[0.871s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[0.874s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.874s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.874s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.874s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[0.876s] [34mcolcon.colcon_notification.desktop_notification.notify2[0m [1;30mDEBUG[0m [32mFailed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message[0m
+[0.876s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[0.876s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/developer/deepviewaggregation/install/local_setup.ps1'
+[0.877s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/developer/deepviewaggregation/install/_local_setup_util_ps1.py'
+[0.878s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/developer/deepviewaggregation/install/setup.ps1'
+[0.879s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/developer/deepviewaggregation/install/local_setup.sh'
+[0.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/developer/deepviewaggregation/install/_local_setup_util_sh.py'
+[0.880s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/developer/deepviewaggregation/install/setup.sh'
+[0.882s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/developer/deepviewaggregation/install/local_setup.bash'
+[0.882s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/developer/deepviewaggregation/install/setup.bash'
+[0.884s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/developer/deepviewaggregation/install/local_setup.zsh'
+[0.884s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/developer/deepviewaggregation/install/setup.zsh'

@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+build/torch_points3d/torch_points3d.egg-info/PKG-INFO
+build/torch_points3d/torch_points3d.egg-info/SOURCES.txt
+build/torch_points3d/torch_points3d.egg-info/dependency_links.txt
+build/torch_points3d/torch_points3d.egg-info/not-zip-safe
+build/torch_points3d/torch_points3d.egg-info/requires.txt
+build/torch_points3d/torch_points3d.egg-info/top_level.txt
+torch_points3d/__init__.py
+torch_points3d/trainer.py

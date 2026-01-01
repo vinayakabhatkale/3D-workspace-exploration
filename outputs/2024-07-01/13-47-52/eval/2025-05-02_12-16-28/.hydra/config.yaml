@@ -1,0 +1,39 @@
+visualization:
+  activate: true
+  format: pointcloud
+  num_samples_per_epoch: -1
+  deterministic: true
+  saved_keys:
+    pos:
+    - - x
+      - float
+    - - 'y'
+      - float
+    - - z
+      - float
+    'y':
+    - - l
+      - float
+    pred:
+    - - p
+      - float
+num_workers: 0
+batch_size: 8
+shuffle: false
+cuda: 0
+weight_name: latest
+enable_cudnn: true
+checkpoint_dir: /home/developer/deepviewaggregation/outputs/2024-07-01/13-47-52
+model_name: KPConvPaper
+precompute_multi_scale: false
+enable_dropout: false
+voting_runs: 1
+pretty_print: true
+camera: zivid
+tracker_options:
+  full_res: false
+  make_submission: true
+wandb:
+  log: false
+tensorboard:
+  log: false

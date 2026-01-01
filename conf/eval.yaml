@@ -1,0 +1,35 @@
+defaults: 
+  - visualization: eval
+
+num_workers: 0
+batch_size: 8
+shuffle: False
+cuda: 0
+weight_name: "latest" # Used during resume, select with model to load from [miou, macc, acc..., latest]
+enable_cudnn: True
+
+#checkpoint_dir: "/home/developer/bhatkale45/install/bhatkale45_environment_detection/share/bhatkale45_environment_detection/models"
+checkpoint_dir: "/home/developer/bhatkale45/install/bhatkale45_environment_detection/share/bhatkale45_environment_detection/bhatkale45-deepviewaggregation/outputs/2024-06-28/09-51-13"
+#checkpoint_dir: "/home/developer/deepviewaggregation/outputs/2025-01-28/12-46-36"
+
+model_name: KPConvPaper
+precompute_multi_scale: False # Compute multiscate features on cpu for faster training / inference
+enable_dropout: False
+voting_runs: 1
+pretty_print: True
+
+camera: zivid
+
+tracker_options: # Extra options for the tracker
+  full_res: False
+  make_submission: True
+
+hydra:
+  run:
+    dir: ${checkpoint_dir}/eval/${now:%Y-%m-%d_%H-%M-%S}
+
+wandb:
+    log: False
+
+tensorboard:
+    log: False

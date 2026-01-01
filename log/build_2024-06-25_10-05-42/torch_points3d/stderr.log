@@ -1,0 +1,2 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/dist.py:501: UserWarning: The version specified ('*') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  warnings.warn(

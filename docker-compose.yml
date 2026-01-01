@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  explorer:
+    build: .
+    container_name: workspace_container
+    tty: true
+    stdin_open: true
+    volumes:
+      - .:/workspace
+    command: bash -l

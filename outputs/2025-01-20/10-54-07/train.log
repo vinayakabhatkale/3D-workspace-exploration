@@ -1,0 +1,37 @@
+[2025-01-20 10:54:07,455][torch_points3d.trainer][INFO] - DEVICE : cuda
+[2025-01-20 10:54:10,764][torch_points3d.core.schedulers.bn_schedulers][INFO] - Setting batchnorm momentum at 0.98
+[2025-01-20 10:54:10,900][torch_points3d.trainer][WARNING] - The model will not be able to be used from pretrained weights without the corresponding dataset. Current properties are {'feature_dimension': 3, 'num_classes': 5}
+[2025-01-20 10:54:10,900][torch_points3d.utils.colors][INFO] - [0;32mOptimizer: Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    initial_lr: 5e-05
+    lr: 5e-05
+    maximize: False
+    weight_decay: 0.001
+)[0m
+[2025-01-20 10:54:10,900][torch_points3d.utils.colors][INFO] - [0;32mLearning Rate Scheduler: ExponentialLR({'gamma': 0.9885}, update_scheduler_on=on_epoch)[0m
+[2025-01-20 10:54:10,900][torch_points3d.utils.colors][INFO] - [0;32mBatchNorm Scheduler: BNMomentumScheduler(base_momentum: 0.98, update_scheduler_on=on_epoch)[0m
+[2025-01-20 10:54:10,900][torch_points3d.utils.colors][INFO] - [0;32mAccumulated gradients: None[0m
+[2025-01-20 10:54:10,900][torch_points3d.trainer][INFO] - Model size = 14081216
+[2025-01-20 10:54:10,901][torch_points3d.trainer][INFO] - Dataset: bhatkale45Dataset 
+[0;95mtrain_pre_batch_collate_transform [0m= None
+[0;95mval_pre_batch_collate_transform [0m= None
+[0;95mtest_pre_batch_collate_transform [0m= None
+[0;95mpre_transform [0m= None
+[0;95mtest_transform [0m= None
+[0;95mtrain_transform [0m= None
+[0;95mval_transform [0m= None
+[0;95minference_transform [0m= None
+Size of [0;95mtrain_dataset [0m= 4576
+Size of [0;95mtest_dataset [0m= 1010
+Size of [0;95mval_dataset [0m= 1144
+[0;95mBatch size =[0m 8
+[2025-01-20 10:54:10,901][torch_points3d.datasets.base_dataset][INFO] - Available stage selection datasets: [0;95m ['test', 'val'] [0m
+[2025-01-20 10:54:10,901][torch_points3d.datasets.base_dataset][INFO] - The models will be selected using the metrics on following dataset: [0;95m val [0m
+[2025-01-20 10:54:11,043][torch_points3d.trainer][INFO] - EPOCH 1 / 8
